@@ -1,0 +1,13 @@
+package com.example.heroesapp.models
+
+data class HeroesMarvel(val id: Int, val name: String, val image: String, val description: String) {
+    companion object {
+        val heroesMarvel = mutableListOf<HeroesMarvel>(
+            HeroesMarvel(1, "Spiderman", "https://www.superherodb.com/pictures2/portraits/10/100/133.jpg", "Spiderman es un superhéroe caracterizado por sus habilidades arácnidas, las cuales obtiene tras ser mordido por una araña radiactiva. Estas habilidades incluyen trepar muros, una fuerza sobrehumana, y la capacidad de lanzar telarañas artificiales. Peter Parker, bajo su máscara de Spiderman, lucha contra el crimen en Nueva York mientras equilibra los desafíos de su vida personal y académica."),
+            HeroesMarvel(2, "Ironman", "https://www.superherodb.com/pictures2/portraits/10/100/85.jpg", "Ironman, o Tony Stark, es un genio inventor y multimillonario industrial que lucha contra los criminales usando trajes de armadura de alta tecnología que él mismo diseña. Con su ingenio y recursos prácticamente ilimitados, Stark no solo combate a villanos a nivel global sino que también es un líder fundador de los Vengadores. Ironman es conocido por su carisma, su ingenio afilado y su determinación por proteger el mundo."),
+            HeroesMarvel(3, "Captain America", "https://www.superherodb.com/pictures2/portraits/10/100/274.jpg", "Captain America es el alter ego de Steve Rogers, un frágil joven transformado en un supersoldado por un suero experimental durante la Segunda Guerra Mundial. Dotado de fuerza, agilidad y resistencia sobrehumanas, Captain America también es un experto táctico y combatiente. Con su icónico escudo, lucha por la justicia como símbolo del heroísmo y los valores estadounidenses."),
+            HeroesMarvel(4, "Thor", "https://www.superherodb.com/pictures2/portraits/10/100/140.jpg", "Thor es un dios del panteón nórdico y un miembro crucial de los Vengadores. Hijo de Odin y heredero al trono de Asgard, Thor es prácticamente invulnerable y posee una fuerza inmensurable, además del control sobre los rayos y las tormentas. Con su poderoso martillo, Mjolnir, Thor defiende tanto a la Tierra como a Asgard de las fuerzas del mal y la destrucción."),
+            HeroesMarvel(5, "Hulk", "https://www.superherodb.com/pictures2/portraits/10/100/83.jpg", "Hulk es la manifestación física de la ira de Bruce Banner, un científico genial transformado por la exposición a rayos gamma. Cuando Banner se enfurece o se estresa, se convierte en Hulk, un ser de fuerza inconmensurable y resistencia. A pesar de su tendencia a la destrucción cuando está enojado, Hulk ha sido un héroe clave en muchas batallas al lado de los Vengadores, luchando para proteger el mundo de amenazas mayores."),
+        )
+    }
+}

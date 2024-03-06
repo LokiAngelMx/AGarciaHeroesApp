@@ -54,6 +54,7 @@
         app:layout_constraintEnd_toStartOf="@id/guideV2">
 
         <EditText
+            android:inputType="textEmailAddress"
             android:id="@+id/emailEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -64,6 +65,7 @@
             android:layout_height="30dp"/>
 
         <EditText
+            android:inputType="textPassword"
             android:id="@+id/passwordEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

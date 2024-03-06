@@ -3,4 +3,8 @@
     <string name="email">Correo electrónico</string>
     <string name="password">Contraseña</string>
     <string name="login">Iniciar sesión</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="welcome_title">Hola Loki</string>
+    <string name="publisher_title">Publisher</string>
+    <string name="publisher_name">Nombre del publisher</string>
 </resources>
