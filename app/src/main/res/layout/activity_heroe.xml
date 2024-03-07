@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.PublisherActivity">
+    tools:context=".activities.HeroeActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -34,7 +34,7 @@
             app:layout_constraintStart_toEndOf="@id/guideV1"
             app:layout_constraintEnd_toStartOf="@id/guideV2"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@id/publisherTitle"
+            app:layout_constraintBottom_toTopOf="@id/heroesTitle"
             android:gravity="center_vertical">
 
             <ImageView
@@ -67,36 +67,25 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/publisherTitle"
+            android:id="@+id/heroesTitle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="@string/publisher_title"
+            android:text="@string/heroes_title"
             android:layout_marginTop="10dp"
             app:layout_constraintStart_toEndOf="@id/guideV1"
             app:layout_constraintEnd_toStartOf="@id/guideV2"
             app:layout_constraintTop_toBottomOf="@id/header"
-            app:layout_constraintBottom_toTopOf="@id/publisherRecyclerView"
+            app:layout_constraintBottom_toTopOf="@id/heroeRecyclerView"
             android:textStyle="bold"
             android:textSize="24sp" />
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/publisherRecyclerView"
+            android:id="@+id/heroeRecyclerView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/publisherTitle"
+            app:layout_constraintTop_toBottomOf="@id/heroesTitle"
             app:layout_constraintStart_toEndOf="@id/guideV1"
             app:layout_constraintEnd_toStartOf="@id/guideV2"
-            app:layout_constraintBottom_toTopOf="@id/logoutBtn"/>
-
-        <Button
-            android:id="@+id/logoutBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/logout"
-            app:layout_constraintTop_toBottomOf="@+id/publisherRecyclerView"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@id/guideV1"
-            app:layout_constraintEnd_toStartOf="@id/guideV2"
-            android:layout_marginTop="10dp" />
+            app:layout_constraintBottom_toBottomOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

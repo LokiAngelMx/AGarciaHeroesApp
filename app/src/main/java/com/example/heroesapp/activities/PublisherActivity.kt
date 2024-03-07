@@ -34,7 +34,7 @@ class PublisherActivity : AppCompatActivity() {
         publisherRecyclerView = findViewById(R.id.publisherRecyclerView)
         publisherRecyclerView.adapter = PublisherAdapter(Publisher.publishers){ publisher ->
             Log.i("Publisher Clicked", publisher.name)
-            val intent = Intent(this, PublisherActivity::class.java).apply {
+            val intent = Intent(this, HeroeActivity::class.java).apply {
                 putExtra("publisherId", publisher.id)
             }
             startActivity(intent)

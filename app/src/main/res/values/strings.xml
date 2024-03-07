@@ -7,4 +7,6 @@
     <string name="welcome_title">Hola Loki</string>
     <string name="publisher_title">Publisher</string>
     <string name="publisher_name">Nombre del publisher</string>
+    <string name="heroes_title">Heroes</string>
+    <string name="heroe_name">Nombre del heroe</string>
 </resources>
