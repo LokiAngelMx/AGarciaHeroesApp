@@ -7,7 +7,10 @@ import android.widget.EditText
 import android.content.Intent
 import android.content.SharedPreferences
 import android.util.Log
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.heroesapp.activities.PublisherActivity
+import com.example.heroesapp.adapters.PublisherAdapter
 import com.google.android.material.snackbar.Snackbar
 import com.example.heroesapp.mockdata.MockData
 
