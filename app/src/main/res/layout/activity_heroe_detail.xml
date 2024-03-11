@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.HeroeDetailActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideH1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideH2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".5" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/rounded_view"
+        app:layout_constraintBottom_toTopOf="@id/guideH1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0" />
+
+    <ImageView
+        android:id="@+id/heroeDetailImage"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:src="@drawable/burger"
+        app:layout_constraintBottom_toTopOf="@+id/guideH2"
+        app:layout_constraintEnd_toStartOf="@+id/guideV2"
+        app:layout_constraintStart_toEndOf="@+id/guideV1"
+        app:layout_constraintTop_toTopOf="parent" />
+    
+    <TextView
+        android:id="@+id/heroeNameTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/heroe_title"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@id/guideV1"
+        app:layout_constraintEnd_toStartOf="@id/guideV2"
+        app:layout_constraintTop_toBottomOf="@+id/guideH1"
+        app:layout_constraintBottom_toTopOf="@id/guideH2"
+        app:layout_constraintVertical_bias=".65" />
+
+    <TextView
+        android:id="@+id/heroeDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/heroe_description"
+        app:layout_constraintStart_toEndOf="@id/guideV1"
+        app:layout_constraintEnd_toStartOf="@id/guideV2"
+        app:layout_constraintTop_toBottomOf="@id/guideH2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="18sp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

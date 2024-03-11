@@ -9,4 +9,6 @@
     <string name="publisher_name">Nombre del publisher</string>
     <string name="heroes_title">Heroes</string>
     <string name="heroe_name">Nombre del heroe</string>
+    <string name="heroe_title">Iron Man</string>
+    <string name="heroe_description">Ironman, o Tony Stark, es un genio inventor y multimillonario industrial que lucha contra los criminales usando trajes de armadura de alta tecnología que él mismo diseña. Con su ingenio y recursos prácticamente ilimitados, Stark no solo combate a villanos a nivel global sino que también es un líder fundador de los Vengadores. Ironman es conocido por su carisma, su ingenio afilado y su determinación por proteger el mundo.</string>
 </resources>

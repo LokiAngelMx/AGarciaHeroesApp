@@ -15,6 +15,9 @@
         android:theme="@style/Theme.HeroesApp"
         tools:targetApi="31">
         <activity
+            android:name=".activities.HeroeDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.HeroeActivity"
             android:exported="false" />
         <activity

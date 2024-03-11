@@ -20,10 +20,10 @@ class HeroeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_heroe)
 
         val publisherId = intent.getIntExtra("publisherId", 0)
-        val mostrarHeroes = Heroe.heroes.filter { it.publisherId == publisherId }
+        val heroe = Heroe.heroes.filter { it.publisherId == publisherId }
 
         heroeRecyclerView = findViewById(R.id.heroeRecyclerView)
-        heroeRecyclerView.adapter = HeroeAdapter(mostrarHeroes){ heroe ->
+        heroeRecyclerView.adapter = HeroeAdapter(heroe){ heroe ->
             Log.i("Heroe Clicked", heroe.name)
             val intent = Intent(this, HeroeActivity::class.java).apply {
                 putExtra("heroeId", heroe.id)

@@ -97,6 +97,6 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@id/guideV1"
             app:layout_constraintEnd_toStartOf="@id/guideV2"
-            android:layout_marginTop="10dp" />
+            android:layout_marginTop="50dp"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
