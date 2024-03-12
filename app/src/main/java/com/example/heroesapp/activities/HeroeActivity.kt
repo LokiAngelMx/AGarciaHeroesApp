@@ -25,7 +25,7 @@ class HeroeActivity : AppCompatActivity() {
         heroeRecyclerView = findViewById(R.id.heroeRecyclerView)
         heroeRecyclerView.adapter = HeroeAdapter(heroe){ heroe ->
             Log.i("Heroe Clicked", heroe.name)
-            val intent = Intent(this, HeroeActivity::class.java).apply {
+            val intent = Intent(this, HeroeDetailActivity::class.java).apply {
                 putExtra("heroeId", heroe.id)
             }
             startActivity(intent)
