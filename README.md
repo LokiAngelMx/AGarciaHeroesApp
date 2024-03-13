@@ -24,16 +24,16 @@ HeroesApp is a mobile application designed for comic book enthusiasts, allowing 
 ## Views
 
 ### Login
-![login](https://github.com/LokiAngelMx/AGarciaHeroesApp/assets/102549935/a0021b08-c470-4d56-85e7-ae7e1189b4a7)
+<img src="https://github.com/LokiAngelMx/AGarciaHeroesApp/assets/102549935/a0021b08-c470-4d56-85e7-ae7e1189b4a7" width="250">
 
 ### Publisher
-![publisher](https://github.com/LokiAngelMx/AGarciaHeroesApp/assets/102549935/6d4f236c-e027-42dc-92ad-0db503bfcf8f)
+<img src="https://github.com/LokiAngelMx/AGarciaHeroesApp/assets/102549935/6d4f236c-e027-42dc-92ad-0db503bfcf8f" width="250">
 
 ### Publisher Marvel
-![marvel](https://github.com/LokiAngelMx/AGarciaHeroesApp/assets/102549935/5b812772-b4d3-469d-8395-a641f192d10c)
+<img src="https://github.com/LokiAngelMx/AGarciaHeroesApp/assets/102549935/5b812772-b4d3-469d-8395-a641f192d10c" width="250">
 
 ### Publisher DC
-![dc](https://github.com/LokiAngelMx/AGarciaHeroesApp/assets/102549935/e73dc898-52b4-45e6-94ed-84ed98b7fdf8)
+<img src="https://github.com/LokiAngelMx/AGarciaHeroesApp/assets/102549935/e73dc898-52b4-45e6-94ed-84ed98b7fdf8" width="250">
 
 ### Hero detail
-![hero](https://github.com/LokiAngelMx/AGarciaHeroesApp/assets/102549935/3f3dd38a-8f5f-46ab-bfae-7630c06404f8)
+<img src="https://github.com/LokiAngelMx/AGarciaHeroesApp/assets/102549935/3f3dd38a-8f5f-46ab-bfae-7630c06404f8" width="250">
